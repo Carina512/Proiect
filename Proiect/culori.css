@@ -1,0 +1,85 @@
+/*.cutie1{*/
+/*    height:7%;*/
+/*    width:100%;*/
+/*    background-color:#20B2AA;*/
+/*}*/
+.cutie2{
+    height:83%;
+    width:100%;
+    background-color: #E0FFFF ;
+}
+.cutie3{
+    height:10%;
+    width:100%;
+    background-color:#AFEEEE;
+}
+*{
+    background-color: #E0FFFF;
+}
+
+/*BARA DE NAVIGARE*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20B2AA;
+    position:sticky;
+
+
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #20B2AA;
+}
+
+/* RESPONSIVE*/
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20B2AA;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #20B2AA;}
+
+ul.topnav li a.active {background-color: #20B2AA;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+.contact{
+    float:right;
+}
